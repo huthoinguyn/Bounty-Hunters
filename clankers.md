@@ -27,3 +27,4 @@ Automated tracking of all Clankers PR contributors.
 | huthoinguyn | 1 | 2026-05-13 |
 | woairenzhi | 1 | 2026-05-13 |
 | nishantgoyal01 | 1 | 2026-05-13 |
+| SimoneMariaRomeo | 1 | 2026-05-13 |
