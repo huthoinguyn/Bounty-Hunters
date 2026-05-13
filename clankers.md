@@ -37,6 +37,7 @@ Automated tracking of all Clankers PR contributors.
 | SebnemC | 2 | 2026-05-13 |
 | Saumya-Verma123 | 2 | 2026-05-13 |
 | FJ-CX | 2 | 2026-05-13 |
+| digzrow-coder | 2 | 2026-05-13 |
 | woairenzhi | 1 | 2026-05-13 |
 | wislonl | 1 | 2026-05-13 |
 | subhajitlucky | 1 | 2026-05-13 |
@@ -49,7 +50,6 @@ Automated tracking of all Clankers PR contributors.
 | huthoinguyn | 1 | 2026-05-13 |
 | emptyteabot | 1 | 2026-05-13 |
 | double2tea | 1 | 2026-05-13 |
-| digzrow-coder | 1 | 2026-05-13 |
 | daveinturkey15-byte | 1 | 2026-05-13 |
 | autochamchikim-pixel | 1 | 2026-05-13 |
 | SimoneMariaRomeo | 1 | 2026-05-13 |
