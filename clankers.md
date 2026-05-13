@@ -38,6 +38,7 @@ Automated tracking of all Clankers PR contributors.
 | Saumya-Verma123 | 2 | 2026-05-13 |
 | FJ-CX | 2 | 2026-05-13 |
 | digzrow-coder | 2 | 2026-05-13 |
+| realkoreanbeef | 2 | 2026-05-13 |
 | woairenzhi | 1 | 2026-05-13 |
 | wislonl | 1 | 2026-05-13 |
 | subhajitlucky | 1 | 2026-05-13 |
@@ -61,7 +62,6 @@ Automated tracking of all Clankers PR contributors.
 | Saskboys | 1 | 2026-05-13 |
 | Snooz1e | 1 | 2026-05-13 |
 | limu6519 | 1 | 2026-05-13 |
-| realkoreanbeef | 1 | 2026-05-13 |
 | ErenCankutUYSAL | 1 | 2026-05-13 |
 | canburakyol | 1 | 2026-05-13 |
 | BerqiaMouad | 1 | 2026-05-13 |
