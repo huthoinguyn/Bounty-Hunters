@@ -38,10 +38,9 @@ jobs:
           fi
 
           # sort table rows by PR count descending
-          HEADER=$(head -5 "$FILE")
-          ROWS=$(tail -n +6 "$FILE" | grep '^|' | sort -t'|' -k3 -rn)
-          echo "$HEADER" > "$FILE"
-          echo "$ROWS" >> "$FILE"
+          head -5 "$FILE" > "${FILE}.tmp"
+          tail -n +6 "$FILE" | grep '^|' | sort -t'|' -k3 -rn >> "${FILE}.tmp"
+          mv "${FILE}.tmp" "$FILE"
 
           if git diff --quiet "$FILE"; then
             echo "No changes needed"
