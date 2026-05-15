@@ -313,6 +313,26 @@ def test_encode_pydantic_undefined():
     assert jsonable_encoder(data) == {"value": None}
 
 
+def test_encode_memoryview_default_base64():
+    data = {"value": memoryview(b"hello")}
+    assert jsonable_encoder(data) == {"value": "aGVsbG8="}
+
+
+def test_encode_bytes_hex():
+    data = {"value": b"hello"}
+    assert jsonable_encoder(data, bytes_encoding="hex") == {"value": "68656c6c6f"}
+
+
+def test_encode_memoryview_hex():
+    data = {"value": memoryview(b"hello")}
+    assert jsonable_encoder(data, bytes_encoding="hex") == {"value": "68656c6c6f"}
+
+
+def test_encode_bytes_invalid_encoding():
+    with pytest.raises(ValueError):
+        jsonable_encoder({"value": b"hello"}, bytes_encoding="invalid")
+
+
 @pytest.mark.filterwarnings("ignore::DeprecationWarning")
 @pytest.mark.parametrize(
     "module_path",
